@@ -32,7 +32,7 @@ public class CheckersGame extends JFrame
         JPanel boardPanel = new JPanel(new GridLayout(gameSize, gameSize));
         board_initializ(boardPanel);
 
-        // Add control buttons
+        //adding the control buttons.
         JPanel controlPanel = new JPanel();
         JButton newGamBtn = new JButton("New Game");
         JButton pauseButton = new JButton("Pause");
@@ -110,5 +110,10 @@ public class CheckersGame extends JFrame
    private boolean ifIsValidMoves
    {
 
+   }
+
+   public static void main(String[] args)
+   {
+        SwingUtilities.invokeLater(CheckersGame::new);
    }
 }
