@@ -1,6 +1,6 @@
 # CheckersGame
 This is a Checkers Game for final project.
-This is just the basic layout for the game. I will be editing this.
+I will be editing this.
 ```java
 
 import javax.swing.*;
