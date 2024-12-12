@@ -1,7 +1,5 @@
 # CheckersGame
-This is a Checkers Game for final project.
-I will be editing this.
-```java
+This is a Checkers Game.
 
 import javax.swing.*;
 import java.awt.*;
